@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
+<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="90" y1="6" x2="90" y2="29"/>
+<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="90" y1="122" x2="90" y2="47"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="90" y1="82" x2="60" y2="82"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="90" y1="95" x2="60" y2="95"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="122" y1="82" x2="108" y2="82"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="122" y1="95" x2="108" y2="95"/>
+<polyline fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" points="108,6 108,29 122,29 "/>
+<polyline fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" points="108,122 108,47 122,47 "/>
+<g>
+	<path d="M126,2v124H2V2H126 M128,0H0v128h128V0L128,0z"/>
+</g>
+<rect x="6" y="6" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="116" height="116"/>
+<path fill="none" stroke="#000000" stroke-width="2.0513" stroke-miterlimit="10" d="M20,122c0-22.1,17.9-40,40-40"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M33,122c0-14.9,12.1-27,27-27"/>
+<g>
+	<path d="M50.9,27c1,1.2,1.9,2.5,2.5,4H92v-4H50.9z"/>
+	<path d="M22.1,45H5v4h18.6C23,47.7,22.5,46.3,22.1,45z"/>
+	<path d="M25.1,27H5v4h17.5C23.2,29.5,24,28.2,25.1,27z"/>
+	<path d="M52.4,49H92v-4H53.9C53.5,46.3,53,47.7,52.4,49z"/>
+</g>
+<path d="M38,22c-8.8,0-16,7.2-16,16c0,14,16,30,16,30s16-16.1,16-30C54,29.2,46.8,22,38,22z M38,43c-2.8,0-5-2.2-5-5s2.2-5,5-5
+	s5,2.2,5,5S40.8,43,38,43z"/>
+</svg>

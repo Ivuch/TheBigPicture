@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
+<rect x="4" y="6" width="120" height="6"/>
+<polyline fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" points="5,5 64,2 123,5 "/>
+<path d="M62,9V1c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v8H62z"/>
+<path d="M66,88v12c0,0.6-0.4,1-1,1h-2c-0.6,0-1-0.4-1-1V88H66z"/>
+<path d="M127,13h-2V5h2c0.6,0,1,0.4,1,1v6C128,12.6,127.6,13,127,13z"/>
+<path d="M127,88h-2v-6h2c0.6,0,1,0.4,1,1v4C128,87.6,127.6,88,127,88z"/>
+<path d="M1,13h2V5H1C0.4,5,0,5.4,0,6l0,6C0,12.6,0.4,13,1,13z"/>
+<path d="M1,88h2v-6H1c-0.6,0-1,0.4-1,1l0,4C0,87.6,0.4,88,1,88z"/>
+<rect x="4" y="83" width="120" height="4"/>
+<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="5,11 5,85 123,85 123,11 "/>
+<rect x="72.5" y="20.5" fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" width="40" height="40"/>
+<polyline fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" points="55.5,61.5 15.5,61.5 15.5,21.5 "/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="102.5" y1="20.5" x2="102.5" y2="60.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="92.5" y1="20.5" x2="92.5" y2="60.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="82.5" y1="20.5" x2="82.5" y2="60.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="25.5" x2="112.5" y2="25.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="30.5" x2="112.5" y2="30.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="35.5" x2="112.5" y2="35.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="40.5" x2="112.5" y2="40.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="45.5" x2="112.5" y2="45.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="50.5" x2="112.5" y2="50.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="55.5" x2="112.5" y2="55.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="65.5" x2="112.5" y2="65.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="68.5" x2="104.5" y2="68.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="71.5" x2="112.5" y2="71.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="15.5" y1="68.5" x2="20.5" y2="68.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="15.5" y1="71.5" x2="20.5" y2="71.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="26.5" y1="68.5" x2="55.5" y2="68.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="26.5" y1="71.5" x2="55.5" y2="71.5"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" x1="72.5" y1="74.5" x2="104.5" y2="74.5"/>
+<polyline fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="19,33 30,38 38,49 
+	50,41 54,47 "/>
+<circle cx="30" cy="38" r="2"/>
+<circle cx="38" cy="49" r="2"/>
+<circle cx="50" cy="41" r="2"/>
+<circle cx="54" cy="47" r="2"/>
+<circle cx="19" cy="33" r="2"/>
+<polyline fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" points="19,56 30,27 38,35 
+	45,30 54,34 "/>
+<circle cx="30" cy="27" r="2"/>
+<circle cx="38" cy="35" r="2"/>
+<circle cx="45" cy="30" r="2"/>
+<circle cx="54" cy="34" r="2"/>
+<circle cx="19" cy="56" r="2"/>
+<circle cx="30" cy="125" r="3"/>
+<circle cx="30" cy="125" r="3"/>
+<polygon points="61,90.7 29.5,122.8 32.4,125.6 61,96.4 "/>
+<circle cx="98" cy="125" r="3"/>
+<circle cx="98" cy="125" r="3"/>
+<polygon points="67,90.7 98.5,122.8 95.6,125.6 67,96.4 "/>
+</svg>

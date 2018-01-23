@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<rect x="16" y="17" width="5" height="4"/>
+<rect x="1" y="7" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="30" height="24"/>
+<rect x="6" y="13" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="20" height="12"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="6" y1="17" x2="26" y2="17"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="6" y1="21" x2="26" y2="21"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="11" y1="13" x2="11" y2="25"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="16" y1="13" x2="16" y2="25"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="21" y1="13" x2="21" y2="25"/>
+<path d="M28,2v2c0,1.1-0.9,2-2,2s-2-0.9-2-2V2H8v2c0,1.1-0.9,2-2,2S4,5.1,4,4V2H0v7h32V2H28z"/>
+<path d="M26,5L26,5c-0.6,0-1-0.4-1-1V1c0-0.6,0.4-1,1-1h0c0.6,0,1,0.4,1,1v3C27,4.6,26.6,5,26,5z"/>
+<path d="M6,5L6,5C5.4,5,5,4.6,5,4V1c0-0.6,0.4-1,1-1h0c0.6,0,1,0.4,1,1v3C7,4.6,6.6,5,6,5z"/>
+</svg>
