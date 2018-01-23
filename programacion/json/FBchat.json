@@ -1,0 +1,22 @@
+{
+	"user" : {
+		"id" : 1,
+		"name" : "Paloma",
+		"lastName" : "Raccoon",
+		"conversations" : [
+			{
+				"with": 2,
+				"messages": [
+					{
+						"text": "hey!",
+						"date": "2014-04-23T18:25:43.511Z" 
+					}
+				]
+			},
+			{
+				"with": 3,
+				"messages": []
+			}
+		]
+	}
+}

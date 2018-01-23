@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Título</title>
+</head>
+<body>
+	<h1>Título</h1>	
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<br>
+	<a href="/">Index</a>
+	<script>
+	EEUU: 
+
+	var visa = 8500
+	var idavuelta= 18700
+	var buquebus= 2000
+ 
+ 	var nums = [visa, idavuelta, buquebus];
+
+ 	//sum recibe un array de numeros nums[1,45,102] y devuelve su suma
+	Math.sum = function (nums){
+		var suma = 0;
+		for (var i = 0; i<nums.length; i++){
+			suma += nums[i]
+		}
+		return suma;
+	}
+
+	//Tests de la API Math
+	function tests(){
+		alert(Math.sum(nums))
+		alert(Math.PI)
+		alert(typeof document)
+				alert( Window.toString())
+		alert(typeof Math.PI)
+	}
+	tests()
+	</script>
+</body>
+</html>
+
+
+

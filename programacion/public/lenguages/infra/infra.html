@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Infra</title>
+</head>
+<body>
+	<h1>Infraestructura</h1>
+	<ul>
+		<h3>Ubuntu Server 14.04</h3>
+		<li>Change SSH port: Port 22 to Port 2222
+			<ol>
+				<li>modify: nano /etc/ssh/sshd_config</li>
+			
+
+			where it says: <br>
+			# What ports, IPs and protocols we listen for
+			Port 22 <---change port to what you need it to be
+			<br>
+			<li>then save and restart ssh server: service ssh restart</li>
+			</ol>
+		</li>
+		<li>Client connection: ssh user@YOUR_IP_ADDRESS -p PORT</li>
+		<li>Now you can connect SFTP vía: sftp -P 2222 user@ip_or_domain_name</li>
+		<li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server">guide for SFTP</a></li>
+	</ul>
+	<ul>
+		<h2>Deploy a node app:</h2>
+		<ol>
+			<li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04">node.js app on ubuntu full</a></li>
+			<li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04">Digital Ocean: init server ubuntu-14.04 --> Users & SSH (Optional)</a></li>
+			<li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers">Digital Ocean: UFW (firewall), timezone & NTP for ubuntu-14.04 server</a></li>
+			<li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server">Digital Ocean: Install node.js on ubuntu-14.04 server! USE NVM!!</a></li>
+			<li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean">HOST name & Domains, & email</a></li>
+			<li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04">Permanent node.js app runnning in server</a></li>
+			<li><a target="_blank" href="https://certbot.eff.org/#ubuntuxenial-other">certonly! HTTPS</a></li>
+			<li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-16-04">Mongo DB on ubuntu</a></li>
+		</ol>
+		<br><br><br>
+		<h2>Extra:</h2>
+		<li><a target="_blank" href="http://billpatrianakos.me/blog/2015/01/15/how-do-node-web-apps-work-in-production/">Node web app in production (+NginX)</a></li>
+		<li><a target="_blank" href="https://www.google.com.ar/search?client=ubuntu&channel=fs&q=how+to+deploy+a+node+app&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=yW_HVqDtG6jX8gfzu6zQBQ">how to deploy a node app? (Search)</a></li>
+		<li><a target="_blank" href="https://strongloop.com/strongblog/node-js-deploy-production-best-practice/">StrongLoop</a></li>
+		<li><a target="_blank" href="https://gun.io/blog/tutorial-deploy-node-js-server-with-example/">gun.io deploy example</a></li>
+		<li><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04">Complete Ubuntu 14 server - Node.js deploy application</a></li>
+		<li><a target="_blank" href="https://en.wikipedia.org/wiki/Reverse_proxy">wiki: Resverse Proxy</a></li>
+		<li><a target="_blank" href="https://www.nginx.com/blog/5-performance-tips-for-node-js-applications/">NginX performance tips for Node.js apps</a></li>
+	</ul>
+	<ul>
+		<h3>Infra:</h3>
+		<li><a href="docker.html">Docker</a></li>
+		<li><a target="_blank" href="http://askubuntu.com/questions/85462/what-is-my-computer-ip-address-knowing-that-i-have-a-router">My IP - Router, inside-outside</a></li>
+		<li><a target="_blank" href="http://whatsmyip.net/">http://whatsmyip.net/</a></li>
+		<li><a target="_blank" href="http://whatismyip.org/">http://whatismyip.org/</a></li>
+		<li><a href="internet.html">History of Internet</a></li>
+	</ul>
+	<ul>
+		<li>List all ip's conected to your server:  netstat -an --inet</li>
+		<li>All login attempts are logged to /var/log/auth.log <br>
+			<br>
+Search for brute-force SSH logins
+
+Run this command:
+<br>
+grep sshd.\*Failed /var/log/auth.log | less <br> <br>
+Search for failed connections
+
+Run this command:
+
+grep sshd.*Did /var/log/auth.log | less <br> <br>
+UPDATE:
+
+You should try restarting the syslog daemon to see if it starts to log to the correct file.
+
+sudo service rsyslog restart
+ <br><br>
+ Live log:<br>
+tail -f /var/log/auth.log
+</li>
+	</ul>
+	<br>
+	<br>
+	<a href="/">Index</a>
+</body>
+</html>
