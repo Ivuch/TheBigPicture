@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nextel Dev's Web [NDW]</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+body{
+	margin: 0;
+	padding: 0;
+}
+li h1{
+	background-color: #ff521e;
+}
+header{
+	box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.75);
+}
+	</style>
+	<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+	<header>
+		<button style="float:left" onclick="location.href = 'http://127.0.0.1:8082';">Index</button>
+		<h1 style="margin: 0;">Nextel</h1>
+		<ul>
+			<li>Artifactory: <a target="_blank" href="artifactory.nextel.com.ar/artifactory">artifactory.nextel.com.ar/artifactory</a></li>
+			<li>DataSources: <a href="datasources.xml">datasources.xml</a></li>
+			<li>Git Repo: ssh git@cisrvlab.nextel.com.ar info</li>
+			<li>Bpel <a target="_blank" href="http://appd1i3.nextel.com.ar:7777/BPELConsole/">http://appd1i3.nextel.com.ar:7777/BPELConsole/</a> oc4jadmin::ias10g</li>
+			<li>git clone git@cisrvlab.nextel.com.ar:${nexus-repo/NexusCRM}</li>
+			<li>LOGS: <a target="_blank" href="http://logviewer.nextel.com.ar/WebLogsViewer/listLogs.do">http://baslije7.nextel.com.ar:7877/WebLogsViewer/listLogs.do</a></li>(eokabe::eo1234)
+			<li>Balanceador: <a target="_blank" href="http://baslije12.nextel.com.ar:9406/webcacheadmin">http://baslije12.nextel.com.ar:9406/webcacheadmin</a></li>(ias_admin::ias10g) Site-to-Server Mapping !important
+			<li>ssh oracle@wlogicdev01.nextel.com.ar pass: ora123 ~$cd $ORACLE_HOME</li>
+			<li>/home/snoop/git/.metadata/.plugins/org.eclipse.core.resources/.projects/paniol-view/beadep/base_domain/paniol-view/WEB-INF/lib</li>
+			<li>Jenkins bah</li>
+			<li>Sites: <a href="https://sites.google.com/a/snoopconsulting.com/nexus/migracion-a-weblogic/migracion-mdb-en-weblogic">MDB migración</a><br><a href="https://sites.google.com/a/snoopconsulting.com/nexus/proyectos/fidelizacion">Fidelización Init</a></li>
+			<li>Weblogic: convertir un proyecto a DinamicWeb-application --> proyecto-->propiedades-->project facets-->Check  DinamicWeb Module</li>
+			<li>Web Application: Instalar el plugin de gwt para eclipse. OJO la version:
+			https://developers.google.com/eclipse/docs/install-eclipse-4.6
+			https://developers.google.com/eclipse/docs/download
+			https://developers.google.com/eclipse/docs/download_older
+			</li>	
+			<li>ClassLoader weblogic: http://wlogicdev01.nextel.com.ar:7030/wls-cat/</li>
+		</ul>
+	</header>
+	<h1>Ambientes</h1> <a href=""></a>
+	<ul>
+		<li><h1>D1:</h1>kgodoy::Login123 // <h1>P1: </h1> asqueaga::Nextel123
+			<ul>
+				<li>Consola P1: <a href="http://baslije.nextelp1.com.ar:7779/nexus">http://baslije.nextelp1.com.ar:7779/nexus</a></li>
+				<li><p>Consola WebLogic: <a targt="_blank" href="http://wlogicdev01.nextel.com.ar:7001/console">http://wlogicdev01.nextel.com.ar:7001/console</a></p></li>http://crmd1.nextel.com.ar/nexus/index2.jsp
+				<li><p>Nexus: <a target="_blank" href="http://wlogicdev01.nextel.com.ar:7004/nexus/index2.jsp">http://wlogicdev01.nextel.com.ar:7004/nexus/index2.jsp</a></p></li>
+				<li><p>STSI: http://local.nextel.com.ar:7001/nexusSTSI/iniciarGestionCliente.do?custCode=X.XX&cliente=XXX&idRegistroAtencion=XXXXX</p></li>
+				<li><p>Paniol:<a target="_blank" href="http://wlogicdev01.nextel.com.ar:7006/paniol">http://wlogicdev01.nextel.com.ar:7006/paniol</a></p></li>
+				<br>
+				<li><p>Colas: <a target="_blank" href="http://localhost.nextel.com.ar:7001/panelColas/inicial.do?method=inicialIp&ip=10.101.68.56">http://localhost.nextel.com.ar:7001/panelColas/inicial.do?method=inicialIp&ip=10.101.68.56</a></p></li>
+				<br>
+				<li><p>Stsuc (Reparaciones): <a href=""></a></p></li>
+				<li><p><i>Aquí iría una explicación de como conseguir qué URL, qué PORT y qué PATH según :  <b>http://{URL}:{PORT}{PATH}</b></i></p></li>
+				<li>Plugin Eclipse-WebLogic: <a target="_blank" href="/home/snoop/git/.metadata/.plugins/org.eclipse.wst.server.core/tmp2/base_domain/work">jiji</a>/home/snoop/git/.metadata/.plugins/org.eclipse.wst.server.core/tmp2/base_domain/work</li>
+				<li>
+					<h3>Conexiones: SSH & SCP<div style="float:right; font-size:100%"><label>Documentación scp: </label><a target="_blank" href="http://www.hypexr.org/linux_scp_help.php">http://www.hypexr.org/linux_scp_help.php</a></div></h3>
+					<ul>
+						<li>
+							<b><i>SCP Example:</i></b>
+							<br> scp oracle@wlogicdev01.nextel.com.ar:/u01/oracle/middleware/wls_12.1.2/user_projects/domains/Testing_Domain/servers/AdminServer/upload/UCLibraries.war .
+						</li>
+						<li>
+							<b><i>How to:</i></b>
+							<br> scp {user}@{url_ambiente}:{path_of_library} . <--"Do NOT forget the dot '.' "
+							<br>
+							<ul>
+								<li>user: oracle</li>
+								<li>url_ambiente: wlogicdev01.nextel.com.ar</li>
+								<li>path_of_library: /u01/oracle/middleware/wls_12.1.2/user_projects/domains/Testing_Domain/servers/AdminServer/upload/UCLibraries.war</li>
+								<li>.</li>
+								<li>pass: ora123  <-- (al 28/9/2016)</li>
+							</ul>
+						</li>	
+					</ul>
+				</li>
+				<li>
+					<h3>Frequent required libraries & .jar's :</h3>
+					<ul>
+						<li>nexus-stsi-properties:  Path: <b><i>/u01/oracle/middleware/wls_12.1.2/user_projects/domains/Testing_Domain/servers/AdminServer/upload/nexus-stsi-properties.jar</i></b> </li>
+						<li>UCLibraries.war: Path: <b><i>/u01/oracle/middleware/wls_12.1.2/user_projects/domains/Testing_Domain/servers/AdminServer/upload/UCLibraries.war</i></b></li>
+					</ul>
+				</li>
+				<li>
+					<h3>Clientes: </h3>
+					<table>
+						<tr>
+							<th>CustomerCode</th>
+							<th>Cliente</th>
+							<th>idRegistroAtencion</th>
+							<th>hanset</th>
+							<th>URL</th>
+						</tr>
+						<tr>
+							<td>3.115</td>
+							<td>483</td>
+							<td>139178246139178000</td>
+							<td>102400142675050</td>000600156304590/102700853439040/000600083585880
+							<td><a href="#">iniciarGestionCliente.do?custCode=3.115&cliente=483&idRegistroAtencion=139178246</a></td>
+						</tr>
+					</table>
+				</li>						
+			</ul>
+		</li>
+	</ul>
+	<br>
+	<br>
+	<br>Dórico 6° aum
+	<hr>
+	<br>
+	<h3>Issues Conocidos</h3>
+	<ul>
+		<li>TimeZone Ora-1882 // SQLServer:<p>agregar al archivo: <a href="#">/home/%user%/opt/sqldeveloper/sqldeveloper/bin/sqldeveloper.conf</a> el siguiente flag: <pre>
+		#Timezone
+		AddVMOption -Duser.timezone=CET
+
+		ó
+
+		AddVMOption -Duser.timezone=GMT
+		</pre>
+		</p>
+	</li>
+	<li>TimeZone Ora-1882 // Oracle WebLogic:<p>agregar al archivo: <a href="#">/home/%user%/opt/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/bin/setDomainEnv.sh</a> los siguientes flag: <pre>
+		JAVA_PROPERTIES="${JAVA_PROPERTIES} ${EXTRA_JAVA_PROPERTIES} -Duser.timezone="GMT" -Duser.language="en" -Duser.country="US""
+		export JAVA_PROPERTIES
+		</pre>
+		Más info en: <a href="https://docs.oracle.com/cd/E18457_01/doc.722/e18454/net_intel_isa_wlsetup.htm#autoId5">Documentacion Oficial de Oracle WebLogic</a>
+		</p>
+	</li>
+	<li>Numeros:
+		Mario's radio: 15-5429-6717
+	</li>	
+	</ul>
+	<br>
+	<br>
+	<br>
+	<br>
+	<hr>
+	<br>
+	<ul>
+		<h3>Tecnologías de NEXUS:</h3>
+		<li>
+			JSTL (JSP Standar Tag Lib) : =>  <a target="_blank" href="https://www.tutorialspoint.com/jsp/jstl_core_if_tag.htm">https://www.tutorialspoint.com/jsp/jstl_core_if_tag.htm</a>
+		</li>
+	</ul>
+	<br>
+	<br>
+	<br>
+	<hr>
+	<br>
+	<br>
+	<ul>
+		<h3>Querys útiles y no tan útiles x/amb. : </h3>
+		<li>DB: NexusD1
+			<ul>
+				<li>
+					Get idRegistroAtencion by IMEI:<br>
+					<br>
+					SELECT ID, FECHA_CREACION from STS_EQUIPO where IMEI = ? order by FECHA_CREACION desc;
+					<br>
+					SELECT ID_REGISTRO_ATENCION FROM STS_GESTION_SERVICIO_TECNICO where id = ?;
+				</li>
+				<br><br>	
+				<li>
+					Get CONTRATOS, IMEI, HANSET by CUSTOMER_CODE (by Cliente):<br>
+					<br>
+					SELECT ge.NUMERO, ge.CUSTOMER_CODE, op.NUMERO_GESTION, op.CONTRATO, op.IMEI_HANDSET, op.IMEI_SIM <br>
+					FROM GE_GESTION_EQUIPO ge , GE_OPERACION op <br>
+					WHERE ge.numero = op.numero_gestion and ge.CUSTOMER_CODE = '3.126'; 
+				</li>
+			</ul>
+		</li>
+	</ul>102600104853050 --> http://localhost.nextel.com.ar:7001/nexusSTSI/iniciarGestionCliente.do?custCode=3.115&cliente=483&idRegistroAtencion=139178622
+	<pre>
+		
+--Query para traer clientes suspendidos / clientes con contratos suspendidos--
+
+--	Devuelve todos los usuarios con su respectiva cantidad de contratos suspendidos Existen otros dos campos para los contratos activos y desactivos en la misma tabla
+--
+
+base AVALOND1	
+user BSCSARG     SYSADM			
+pass BSCSARG 	 SYSADM			
+
+
+SELECT 
+  CS.CUSTCODE,
+  CS.INAR_SUSP
+FROM CUSTOMER_SUMMARY CS 
+WHERE CS.INAR_SUSP > 0
+
+
+--Has Recompra --
+SELECT   ge.monto_recompra 
+		 FROM 	 nxsadm.incidente_nexus i,
+		 nxsadm.ge_operacion o,
+		 nxsadm.ge_gestion_equipo eq,
+		 nxsadm.ge_cambio_equipo ge
+		 WHERE       o.id = ge.id
+		  AND o.numero_gestion = i.id_gestion_nexus
+		  AND o.numero_gestion = eq.numero
+		 AND o.es_operacion_cancelada = 0
+		 AND o.fecha_anulacion IS NULL
+		 AND i.estado_actual <> 'eliminada'
+		AND ge.monto_recompra <> '0'
+		 AND o.imei_handset = ?;
+     
+     --Has recompra FINANCIALS --
+     SELECT   transaction_source_name as recompra
+     FROM   apps.mtl_unit_transactions
+		 WHERE   serial_number =  ?
+		 AND    transaction_source_name = 'Recompra';
+
+		 --Step, reenvio, no aplica, class= MovimientoTarea.java--
+		 select pa.situacion FROM PA_MOVIMIENTO pa where pa.NUMERO_TAREA = ?;
+
+
+//NEXUS FUSION_CABLEVISION QUERYS (STSuc-Reparaciones)
+
+SELECT  clave, valor
+FROM    nxsadm.NXS_INFORMACION_LEGAL
+WHERE   clave IN ('DIRECCION') --> 'DIRECCION','CUIT','IGJ','INGRESOS_BRUTOS','RAZON_SOCIAL'
+AND     TO_DATE(TO_CHAR(110316,'DD/MM/YYYY'),'DD/MM/YYYY') 
+    BETWEEN FECHA_DESDE 
+    AND     NVL(FECHA_HASTA,SYSDATE+1);
+    
+    
+    SELECT * FROM NXS_INFORMACION_LEGAL;
+    
+    SELECT  * FROM STS_ARCHIVO_GESTION;
+    SELECT ge.NUMERO, ge.CUSTOMER_CODE, op.NUMERO_GESTION, op.CONTRATO, op.IMEI_HANDSET, op.IMEI_SIM
+FROM GE_GESTION_EQUIPO ge , GE_OPERACION op
+WHERE ge.numero = op.numero_gestion and ge.CUSTOMER_CODE = '2.11'; 
+
+
+select * FROM STS_GESTION_SERVICIO_TECNICO where ID_VANTIVE = '93504726'
+		 </pre>
+
+		 <ul>
+		 	<h1>Glosario</h1>
+		 	<li>gcm --> dual sim, se puede poner linea de otra empresa.</li>
+			<li>provicioning --> alta del registro</li>
+		 </ul>
+</body>
+</html>

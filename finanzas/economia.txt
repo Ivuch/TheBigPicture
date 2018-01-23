@@ -1,0 +1,74 @@
+La toma de deciciones:
+
+
+Primero se define un contexto o un escenario actual. (El ambiente, las políticas, la economía, etc, lo que tenga relevancia para la toma de decisiones, saber que: es muy dificil abarcar todo, y el resto que no se abarque será un margen de ignorancia.)
+
+Entonces tenemos: 
+
+1)Contexto o escenario actual
+2)Margen de desconocimiento o ignorancia
+
+
+------->
+con estos dos ingredientes se evalúan los Riesgos
+
+
+3)Riesgos
+
+---------------------
+y como resultado: Una persona toma una decisión.
+
+4)La Toma de decisión
+
+
+
+
+
+-----------------
+-----------------
+Con éste método
+
+con el tiempo se empiezan a encontrar anomalías: momentos en los que la tendencia de las comodities deberían haber ido a una cotización y no lo hicieron.
+
+y cuando uno empieza a juntar éstas anomalías y empieza a intentar encontrar patrones, luego se da cuenta de que tienen cosas en común. Ej: Un evento importante en el mundo, en la política o la economía; Noticias que circulan y hacen que el precio suba o baje debido a la oferta y demanda / compra , venta de comodities.
+
+
+La economía se basa en la Escazes y en el costo.
+
+El primer bien escazo es el tiempo, y dar mi tiempo a algo tiene un costo.
+
+el costo es por ejemplo, no darle ese tiempo a otras cosas.
+
+-----------------------
+Intereses del Gobierno: 
+
+1)Mantener la economia en crecimiento
+2)Limitar el Desempleo
+3)Mantener los Precios Estables
+
+-------------------------------
+Para medir si un gobierno está alcanzando sus metas se usan:
+
+1)Gross Domestic Product (GDP - PBI)
+2)Tasa de Desempleo
+3)Tasa de Inflación
+
+1*GDP = Gastos de consumidores +
+Gastos de Empresas + 
+Gastos del Gobierno + 
+Exportaciones
+
+2* La Tasa de Desempleo es un % que se calcula
+total de gente con fuerza de labor: +16  -  -65 = 100.655 personas = 100%
+ mismo rango, pero desempleados = *%
+
+
+ 3* La Inflación se mide siguiendo los precios de cierta cantidad de bienes (y servicios?) que se llama Canasta Básica.
+ La Tasa de inflación es el % que cambió esa Canasta en un período de tiempo.
+
+
+
+
+
+
+

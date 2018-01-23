@@ -1,0 +1,23 @@
+{
+	"enviroment": "D1",
+	"PROTOCOL": "http",
+	"URL": "wlogicdev01.nextel.com.ar",
+	"apps": [
+				{
+					"name": "WebLogicD1",
+					"PORT": ":7001",
+					"PATH": "/console"
+				},
+				{
+					"name": "STSI",
+					"PORT": "",
+					"PATH": "",
+					"parameters":	[
+										{
+											"name": "",
+											"value": ""
+										}	
+									]
+				}
+			]
+}

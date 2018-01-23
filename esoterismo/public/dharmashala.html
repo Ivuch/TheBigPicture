@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="dharma">
+<head>
+	<title>Dharma Shala</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body ng-controller="DharmaController as dharmaCtrl">
+	<div style="position:absolute;z-index:1"><div><img id="dharma" src="image/dharmashala.jpg" ></div></div>
+	<div class="nav-bar" style="padding-top:10px;;position:absolute;z-index:10">
+		<a href="/"><p>Inicio</p></a>
+		<a href="menu.html">Menu</a>
+		<a href="#">{{dharmaCtrl.producto.dharma}}</a>
+		<a href="#">Something</a>
+		<a href="#">Something</a>
+		<audio src="sound/flores.mp3" controls preload='auto'>Flores</audio>
+	</div>
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded",function(){ 
+				for(i = 0; i<100; i++){
+					setTimeout(function(){sepia(i)
+			}, 1500);
+				}
+		})
+		/**  CSS FILTER FUNCTIONS  **/
+		function blur5(value){
+			document.getElementById("blur").style = "filter: blur("+value+"px)"
+		}
+
+		function bright(value){
+			if(value<10){
+				value = "0"+value
+			}
+			if(value>99){
+				document.getElementById("brightness").style = "filter: brightness(1)"
+			}
+			else{
+				document.getElementById("brightness").style = "filter: brightness(0."+value+")"
+			}
+		}
+
+		function contrast(value){
+			document.getElementById("contrast").style = "filter: contrast("+value+"%)"
+		}
+
+		function grayscale(value){
+			document.getElementById("grayscale").style = "filter: grayscale("+value+"%)"
+		}
+
+		function huerotate(value){
+			document.getElementById("huerotate").style = "filter: hue-rotate("+value+"deg)"
+		}
+
+		function invert(value){
+			document.getElementById("invert").style = "filter: invert("+value+"%)"
+		}
+
+		function opacity(value){
+			document.getElementById("opacity").style = "filter: opacity("+value+"%)"
+		}
+
+		function saturate(value){
+			document.getElementById("saturate").style = "filter: saturate("+value+")"
+		}
+
+		function sepia(value){
+			document.getElementById("dharma").style = "filter: sepia("+value+"%)"
+		}
+
+		function shadow(value){
+			document.getElementById("dharma").style = document.getElementById("dharma").style+"filter: drop-shadow("+value+"px 8px 10px green)"
+		}
+
+		/**  CSS FILTER FUNCTIONS  **/
+	</script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/dharma.js"></script>
+	1- RA
+	2- Accion y reaccion
+	3- Se siente en el ambiente
+	4- Alex's Theme
+	5- Gibers Theme
+	6- Luca's Theme
+	7- 
+</body>
+</html>
