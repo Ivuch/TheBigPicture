@@ -4,3 +4,19 @@ programacion/public/clientes.html
 LearningToWeb-TeleComunications/learning - beta/building-corp-master/
 finanzas/public/documents
 clientes
+**/node_modules
+*.jpg
+*.jpeg
+*.pdf
+*.csv
+*.png
+*.gif
+*.mp3
+**/content
+**/image
+**/images
+**/document
+**/documents
+**/sound
+**/tmp
+**/keys
