@@ -1,0 +1,58 @@
+/* functions () {
+	
+*	.imageClip --> recorta la img
+*	
+*
+*
+
+}
+
+
+
+*/
+
+.divClip{
+	width: 265px;
+    height: 345px;
+    margin: 20;
+}
+.imageClip{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/*  HTML - Required = true
+
+		<div class="circular"><img src="http://link-to-your/image.jpg" alt="" /></div>
+
+	
+	DOCS:
+		http://bavotasan.com/2011/circular-images-with-css3/
+
+*/
+.circular {
+    width: 10%;
+    height: 7%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: url(../images/wood.jpg) no-repeat;
+	display: inline-block;
+}
+
+.circular2{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: url(../images/wood.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.circular2 img {
+	max-width: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}

@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>P. Pet</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/imageStyler.css">
+</head>
+<body>
+	<header></header>
+	<div id="content" class="row">
+		<div class="col-4" id="voyASer100">Hola!</div>
+		<div class="col-8"></div>
+	</div>
+	<div id="otherContent" class="row">
+		<div class="col-3"></div>
+		<div class="col-7"></div>
+		<div class="col-2"></div>
+	</div>
+	<form method='post' action='upload' enctype="multipart/form-data">
+		<div onclick="uploadInput.click()" class="circular2" style="margin: 0 0 0 -12px;"><img src="images/wood.jpg"/></div>
+		<input hidden type="file" id="uploadInput" name="pic" accept="image/*" onchange="loadFile(event)">
+		<input type="submit">
+	</form>
+	<div class="divClip"><img class="imageClip" id="output"/>	</div>
+	<script>
+	  var loadFile = function(event) {
+	    var output = document.getElementById('output');
+	    output.src = URL.createObjectURL(event.target.files[0]);
+	  };
+	</script>
+	<footer></footer>
+</body>
+</html>

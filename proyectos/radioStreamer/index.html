@@ -1,0 +1,124 @@
+<html>
+<head>
+	<title>Radio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header></header>
+	<div id="content" class="row">
+		<div class="col-4" id="voyASer100">Hola!</div>
+		<div class="col-8"></div>
+	</div>
+	<div id="otherContent" class="row">
+		<div class="col-3"></div>
+		<div class="col-7"></div>
+		<div class="col-2"></div>
+	</div>
+	<footer></footer>
+	<br><br><br>
+   <video style="transform: scale(-1, 1);" autoplay></video>
+   <img style="transform: scale(-1, 1);">
+  <canvas style="transform: scale(-1, 1); display:none;"></canvas>
+
+  <br>
+  <br>
+  <button onclick="getCameraContext()">Camara</button>
+  <button onclick="getAudioContext()">Audio</button>
+  <br>
+  <br>
+  <video id="remoteVideo" autoplay></video>
+
+<div>
+  <button id="startButton">Start</button>
+  <button id="callButton">Call</button>
+  <button id="hangupButton">Hang Up</button>
+</div>
+  <script>
+
+   navigator.getUserMedia  = navigator.getUserMedia ||
+                            navigator.webkitGetUserMedia ||
+                            navigator.mozGetUserMedia ||
+                            navigator.msGetUserMedia;
+
+  function getCameraContext(){
+    var video = document.querySelector('video');
+    var canvas = document.querySelector('canvas');
+    var ctx = canvas.getContext('2d');
+    var localMediaStream = null;
+    var hdConstraints = {
+      video: {
+        mandatory: {
+          minWidth: 1280,
+          minHeight: 720
+        }
+      },
+      audio: true
+    } 
+
+  //navigator.getUserMedia(media, successCallBack, errorCallBack)
+    navigator.getUserMedia(hdConstraints, 
+      function(stream) { 
+        video.src = window.URL.createObjectURL(stream);
+        video.controls = false; //onTrue: click para el video, choca con snapshot()
+        localMediaStream = stream;
+      }, 
+      function(e) {console.log('Reeeejected!', e)}
+    )
+
+    function snapshot() {
+      if (localMediaStream) {
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        ctx.drawImage(video, parseInt(0), parseInt(0),canvas.width,canvas.height);//220,107
+        // "image/webp" works in Chrome.
+        // Other browsers will fall back to image/png.
+        document.querySelector('img').src = canvas.toDataURL('image/webp');
+      }
+    }
+
+    video.addEventListener('click', snapshot, false)
+
+    ///////PARTE 2 !!
+
+	  pc1 = new RTCPeerConnection(servers);
+	  pc1.onicecandidate = function(e) {
+	    onIceCandidate(pc1, e);
+	  };
+	  pc1.addStream(localMediaStream);
+  }
+
+  function getAudioContext(){
+    //navigator.getUserMedia(media, successCallBack, errorCallBack)
+    navigator.getUserMedia( {audio:true},
+      function(stream) {
+        window.AudioContext = window.AudioContext || window.webkitAudioContext;
+        var audioContext = new AudioContext();
+        // Create an AudioNode from the stream.
+        var mediaStreamSource = audioContext.createMediaStreamSource(stream);
+        // Connect it to the destination to hear yourself (or any other node for processing!)
+        mediaStreamSource.connect( audioContext.destination );
+      }, 
+      function(e) {console.log('Reeeejected!', e)}
+    )
+  }
+
+  function onIceCandidate(pc, event) {
+  if (event.candidate) {
+    getOtherPc(pc).addIceCandidate(
+      new RTCIceCandidate(event.candidate)
+    ).then(
+      function() {
+        onAddIceCandidateSuccess(pc);
+      },
+      function(err) {
+        onAddIceCandidateError(pc, err);
+      }
+    );
+    trace(getName(pc) + ' ICE candidate: \n' + event.candidate.candidate);
+  }
+}
+
+
+	</script>
+</body>
+</html>

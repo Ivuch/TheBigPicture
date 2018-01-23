@@ -1,0 +1,51 @@
+[
+	{
+		"comida": "Tarta de JyQ",
+		"ingredientes": [
+			{
+				"ingrediente": "Tapas de Tarta",
+				"cantidad": 2
+			},
+			{
+				"ingrediente": "Jamón cocido",
+				"cantidad": "200g"
+			},
+			{
+				"ingrediente": "Queso cremoso",
+				"cantidad": "200g"
+			}
+		],
+		"opcionales":[
+			{
+				"ingrediente": "Limón",
+				"cantidad": "A gusto"
+			}
+		]
+	},
+	{
+		"comida": "Pastel de Papa",
+		"ingredientes":[
+			{
+				"ingrediente": "Papa",
+				"cantidad": "2kg"
+			},
+			{
+				"ingrediente": "Carne picada especial",
+				"cantidad": "1kg"
+			}
+		],
+		"opcional": [
+			{
+				"ingrediente": "Morrón",
+				"cantidad": "1"
+			},
+			{
+				"ingrediente": "Limón",
+				"cantidad": "A gusto"
+			}
+		]
+	},
+	{
+		"comida": ""
+	}
+]
